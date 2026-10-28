@@ -1,0 +1,110 @@
+.projects-section > .section-heading {
+  margin-bottom: 2.75rem;
+}
+
+.project-group + .project-group {
+  margin-top: 3rem;
+}
+
+.project-group h3 {
+  margin: 0 0 1rem;
+  color: var(--text-strong);
+  font-family: Manrope, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 1.25rem;
+}
+
+.project-card {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: #fff;
+}
+
+.project-media {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 75% 22%, rgb(216 235 223 / 70%), transparent 35%),
+    linear-gradient(135deg, #f1f5f0, #e8f0ea);
+}
+
+.project-media video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.65rem;
+  width: 100%;
+  height: 100%;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.play-icon {
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  place-items: center;
+  padding-left: 0.15rem;
+  border: 1px solid rgb(50 116 84 / 20%);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 75%);
+  color: var(--accent-dark);
+  font-size: 0.8rem;
+}
+
+.project-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.2rem;
+}
+
+.project-details h4 {
+  margin: 0 0 0.35rem;
+  color: var(--text-strong);
+  font-family: Manrope, sans-serif;
+  font-size: 1rem;
+}
+
+.project-details p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.project-details > a {
+  flex: 0 0 auto;
+  margin-top: 0.15rem;
+  color: var(--accent-dark);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.project-details > a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 520px) {
+  .project-details {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
