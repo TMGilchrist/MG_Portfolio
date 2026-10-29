@@ -1,5 +1,7 @@
 # Thomas Gilchrist — Portfolio
 
+Software Developer Portfolio
+
 ## Deploy to GitHub Pages
 
 The Vite base path is configured for the `MG_Portfolio` repository. A GitHub
