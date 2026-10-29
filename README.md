@@ -1,6 +1,6 @@
 # Thomas Gilchrist — Portfolio
 
-Software Developer Portfolio
+Software Developer Portfolio.
 
 ## Deploy to GitHub Pages
 
