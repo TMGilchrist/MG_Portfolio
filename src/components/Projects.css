@@ -21,6 +21,8 @@
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   border: 1px solid var(--border);
   border-radius: 1rem;
@@ -28,6 +30,8 @@
 }
 
 .project-media {
+  flex-shrink: 0;
+  margin-top: auto;
   aspect-ratio: 16 / 9;
   overflow: hidden;
   background:

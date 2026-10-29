@@ -1,31 +1,5 @@
 # Thomas Gilchrist — Portfolio
 
-A responsive personal portfolio built with React, TypeScript, and Vite.
-
-## Run locally
-
-```sh
-npm install
-npm run dev
-```
-
-Run `npm run build` to create the production site in `dist/`.
-
-## Personalise the content
-
-- Replace `src/assets/profile-placeholder.svg` with a portrait and update the
-  image import and alt text in `src/components/Intro.tsx`.
-- Update the introductory copy, email address, and social profile links in
-  `src/components/Intro.tsx`.
-- Edit the bio and skills in `src/components/About.tsx`.
-- Add project names, descriptions, website URLs, and YouTube video IDs in
-  `src/components/Projects.tsx`. For unlisted YouTube videos, use the ID from
-  the video URL; leave `videoId` empty to show the video placeholder. Leave
-  `website` empty to hide the Visit Website button.
-
-The starter project entries and contact links are placeholders. Replace them
-with your own details before publishing.
-
 ## Deploy to GitHub Pages
 
 The Vite base path is configured for the `MG_Portfolio` repository. A GitHub

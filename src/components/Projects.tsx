@@ -18,7 +18,7 @@ const commercialProjects: Project[] = [
     name: 'Bankside Timber Square',
     description: 'A real-time, interactive visualisation app utilising OSC protocol to control an Unreal Engine 5 app with an ipad remote controller. Content dynamically populated from an Airtable CMS. Unreal app written in C++ and Blueprints, while the Controller is written in C# in Unity.',
     website: '',
-    videoId: 'ik3Kbty43_0 ',
+    videoId: 'ik3Kbty43_0',
   },
   {
     name: 'Cosentyx Explorer',
