@@ -18,10 +18,14 @@ export function Intro() {
           Unreal C++ Developer, with experience in games and architectural visualisation.
         </p>
         <div className="contact-card" id="contact">
-          <p className="contact-label">Contact Me</p>
-          <a href="mailto:telcontar@hotmail.co.uk">telcontar@hotmail.co.uk</a>
+          <p className="contact-label">Connect With Me</p>
+          {/* <a href="mailto:telcontar@hotmail.co.uk">telcontar@hotmail.co.uk</a> */}
           <div className="contact-links">
-            <a href="linkedin.com/in/mango-gilchrist-6629a41a4">
+            <a
+              href="https://www.linkedin.com/in/mango-gilchrist-6629a41a4/"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
           </div>

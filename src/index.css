@@ -9,6 +9,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  /* --text-strong: #1d2924; #1d2924; */
+  --text-section-header: #397bb5;
   --text-strong: #1d2924;
   --text-muted: #748079;
   --border: #e6ebe7;
