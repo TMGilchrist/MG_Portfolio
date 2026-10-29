@@ -14,7 +14,9 @@ function App() {
         <Projects />
       </main>
       <footer className="site-footer">
-        <p>Mango Gilchrist</p>
+        <div className="site-footer-content">
+          <p>Mango Gilchrist</p>
+        </div>
       </footer>
     </>
   )

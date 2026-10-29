@@ -18,9 +18,10 @@ Run `npm run build` to create the production site in `dist/`.
 - Update the introductory copy, email address, and social profile links in
   `src/components/Intro.tsx`.
 - Edit the bio and skills in `src/components/About.tsx`.
-- Add project names, descriptions, website URLs, and video file paths in
-  `src/components/Projects.tsx`. Place local MP4 files in `public/videos/` and
-  reference them as `/videos/your-project.mp4`.
+- Add project names, descriptions, website URLs, and YouTube video IDs in
+  `src/components/Projects.tsx`. For unlisted YouTube videos, use the ID from
+  the video URL; leave `videoId` empty to show the video placeholder. Leave
+  `website` empty to hide the Visit Website button.
 
 The starter project entries and contact links are placeholders. Replace them
 with your own details before publishing.

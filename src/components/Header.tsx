@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header className="site-header" id="top">
       <span className="site-name">
-        Thomas Gilchrist
+        Mango Gilchrist
       </span>
       <nav aria-label="Main navigation">
         <a href="#about">About</a>

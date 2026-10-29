@@ -19,7 +19,7 @@ export function About() {
         {/* <p className="eyebrow">About Me</p> */}
         <h2 className="section-heading">About</h2>
         <p>
-          I'm a software engineer with a background in games development, mainly in Unreal Engine 5 and Unity.
+          I'm a software engineer with a background in games development, mainly in Unreal Engine 5 and Unity, and over four years experience working with Unreal and WebGL in commerical architectural projects.
         </p>
       </div>
       <div className="skills">
