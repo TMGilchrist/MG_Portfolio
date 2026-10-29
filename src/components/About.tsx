@@ -1,28 +1,29 @@
 import './About.css'
 
 const skills = [
-  'React',
+  'C++',
+  'C#',
   'TypeScript',
   'JavaScript',
-  'HTML & CSS',
-  'Responsive design',
-  'Git',
+  'Python',
+  'Unreal Engine',
+  'Unity',
+  'React',
+  'WebGL'
 ]
 
 export function About() {
   return (
     <section className="section about-section" id="about">
       <div className="about-copy">
-        <p className="eyebrow">A bit about me</p>
-        <h2 className="section-heading">Curious by nature, thoughtful by design.</h2>
+        {/* <p className="eyebrow">About Me</p> */}
+        <h2 className="section-heading">About</h2>
         <p>
-          I’m Thomas, a developer who enjoys turning ideas into approachable,
-          well-crafted experiences. I care about the details—from how a page
-          feels to use to how clearly the code behind it reads.
+          I'm a software engineer with a background in games development, mainly in Unreal Engine 5 and Unity.
         </p>
       </div>
       <div className="skills">
-        <p className="eyebrow">Things I work with</p>
+        <p className="eyebrow">Key Skills</p>
         <ul>
           {skills.map((skill) => (
             <li key={skill}>{skill}</li>

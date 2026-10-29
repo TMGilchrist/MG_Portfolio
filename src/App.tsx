@@ -14,8 +14,7 @@ function App() {
         <Projects />
       </main>
       <footer className="site-footer">
-        <p>Designed and built by Thomas Gilchrist.</p>
-        <a href="#top">Back to top ↑</a>
+        <p>Mango Gilchrist</p>
       </footer>
     </>
   )

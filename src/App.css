@@ -4,7 +4,7 @@
 
 main,
 .site-footer {
-  width: min(100% - 3rem, 1100px);
+  width: min(100% - 3rem, calc(50vw + 550px));
   margin-inline: auto;
 }
 
@@ -54,7 +54,7 @@ main,
 @media (max-width: 640px) {
   main,
   .site-footer {
-    width: min(100% - 2rem, 1100px);
+    width: min(100% - 2rem, calc(50vw + 550px));
   }
 
   .section {

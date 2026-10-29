@@ -7,7 +7,7 @@
   justify-content: space-between;
   width: 100%;
   min-height: 76px;
-  padding-inline: max(1.5rem, calc((100% - 1100px) / 2));
+  padding-inline: max(1.5rem, calc((100% - 1100px) / 4));
   border-bottom: 1px solid rgb(230 235 231 / 82%);
   background: rgb(251 252 250 / 92%);
   backdrop-filter: blur(14px);
@@ -43,18 +43,6 @@
   color: var(--text-strong);
 }
 
-.site-header nav .header-contact {
-  padding: 0.55rem 0.95rem;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  color: var(--text-strong);
-}
-
-.header-contact span {
-  margin-left: 0.25rem;
-  color: var(--accent-dark);
-}
-
 @media (max-width: 560px) {
   .site-header {
     min-height: 68px;
@@ -64,10 +52,6 @@
   .site-header nav {
     gap: 0.85rem;
     font-size: 0.8rem;
-  }
-
-  .site-header nav .header-contact {
-    padding: 0.42rem 0.7rem;
   }
 }
 
